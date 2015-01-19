@@ -12,7 +12,13 @@ Firefox OS open web app template with localisation using middleman.
 
 You may remove slim/scss/coffee from filenames if you don't want to use them.
 
-## How to build your app':
+## Note
+
+* You will need ruby and bundler: `gem install bundler`
+* I advise to swap CACHE and NETWORK in `manifest.appcache` while developping.
+* Do not forget to unswap them before building and deploying your app.
+
+## How to build and deploy your app'
 
 * Fork this repo
 * `git clone` your repo
